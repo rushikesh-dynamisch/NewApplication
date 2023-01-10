@@ -3,7 +3,7 @@ import React from 'react';
 import {SafeAreaView, ScrollView, StyleSheet, useColorScheme,View,ImageBackground} from 'react-native';
 import {Images} from './Images'
 import styled from 'styled-components/native';
-import { Pineapple } from './Pineapple';
+import { LinkItem } from './LinkItem';
 import { Sidebutton } from './Sidebutton';
 import { Description } from './Description';
 import { AddToCart } from './AddToCart';
@@ -15,7 +15,7 @@ export const SecondPage=()=>
         <Likebutton  source={require('../Components/Images/NewlikeButton.png')} />
         <Text>Richmond, VA</Text>
         <Mapview  source={require('../Components/Images/Googlemap.png')} />
-        <Pineapple/>
+        <LinkItem/>
         <Sidebutton/>
         <Description/>
         <AddToCart/>

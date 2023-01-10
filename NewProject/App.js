@@ -28,7 +28,7 @@ function HomeScreen({ navigation }) {
      <Component>
      <FirstPage/>
      <Categories/>
-     <Add onPress={() => navigation.navigate('SecondPage')}><AddText></AddText></Add>
+     <Add onPress={() => navigation.navigate('FirstPage')}><AddText></AddText></Add>
     <NewContent/>
     </Component>
     </ScrollView>
@@ -47,7 +47,7 @@ function App() {
         <Stack.Screen name="Searchbar" component={Searchbar} />
         <Stack.Screen name="Categories" component={Categories} />
         <Stack.Screen name="PressableButton" component={PressableButton} />
-        <Stack.Screen name="SecondPage" component={SecondPage} />
+       
       </Stack.Navigator>
     </NavigationContainer>
   );

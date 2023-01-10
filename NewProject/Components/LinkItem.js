@@ -4,15 +4,13 @@ import {SafeAreaView, ScrollView, StyleSheet, useColorScheme,View,ImageBackgroun
 import {Images} from './Images'
 import styled from 'styled-components/native';
 
-export const Pineapple=()=>
+export const LinkItem=()=>
 {
     
     return(
     <View>
      <PineappleImg source={require('../Components/Images/fruitimg.png')} />
-     <Text>1 item</Text>
-     <MainText>Pineapple</MainText>
-     <PriceText>$2.39.</PriceText>
+    
     </View>
       )
     
